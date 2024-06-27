@@ -1,0 +1,183 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.header{
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(IMAGE/about.us.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    height: 400px;
+    width: 100%;
+    background-attachment: fixed;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: 7px;
+    padding: 7px;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: rgba(255, 228, 196, 0.932);
+    font-size: 25px;
+    font-family: Times New Roman;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Times New Roman;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: rgba(255, 228, 196, 0.932);
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+.srch{
+    font-family: Georgia;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid rgba(255, 228, 196, 0.932);
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: rgba(255, 228, 196, 0.932);
+    border: 2px solid rgba(255, 228, 196, 0.932);
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.footer{
+    text-align: center;
+    padding:0%;
+    color:black;
+    background-color: rgb(248, 246, 244);
+}
+.footer h5{
+    color: rgb(49, 34, 63);
+    font-style: oblique;
+    font-size: xx-large;
+}
+.about_us{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(248, 246, 244);
+}
+.content{
+    float: left;
+    width: 25%;
+}
+
+.image{
+   float: right;
+   width: 45%;
+
+}
+.image img{
+    width: 100%;
+    height: auto;
+    padding: 5% 0% 5% 0%;
+    margin: 5% 0% 5% 0%;
+}
+.content h1{
+    font-size: xx-large;
+    color: black;
+    padding: 5% 5% 5% 5%;
+    margin: 5% 5% 5% 5%;
+}
+.content p{
+    font-style: normal;
+    font-size: x-large;
+    padding: 5% 5% 5% 5%;
+    margin: 5% 5% 5% 5%;
+}
+.btn-View-More{
+    background-color: inherit;
+    padding: 5px 5px 5px 20px;
+    margin: 5px 5px 5px 20px;
+    display: inline-block;
+    transition: 1s;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+    border: none;
+    color: #0fcfafdc;
+}
+.btn-View-More:hover{
+    color:blue;
+}
+.fa-facebook{
+    color: blue;
+transition: 0.5s;
+}
+.fa-facebook:hover{
+    color: black;
+}
+.fa-instagram{
+    color: blueviolet;
+    transition: 0.5s;
+}
+.fa-instagram:hover{
+    color: rgb(245, 244, 245);
+}
+.fa-twitter{
+    color: rgb(15, 104, 221);
+    transition: 0.5s;
+}
+.fa-twitter:hover{
+    color: white;
+}
+.fa-whatsapp{
+    color: rgb(21, 199, 80);
+    transition: 0.5s;
+}
+.fa-whatsapp:hover{
+    color: rgb(77, 66, 170);
+}
